@@ -1,16 +1,10 @@
 # WebAPIREST-CRUD-JWT
 ##StudentClub Web API
 
-> **Angular v9** Single Page Application with an ASP.NET Core WebAPI that uses token authentication. 
-> The OAuth 2.0 [Resource Owner Password Credentials grant](https://tools.ietf.org/html/rfc6749#section-4.3) (ROPC) is implemented using IdentityServer4 
+
 > and ASP.NET Core Identity as membership system with a SQLite database.
 
 
-[Live example](https://angularspawebapi.azurewebsites.net) and its [explanation](https://github.com/robisim74/AngularSPAWebAPI/blob/master/EXPLANATION.md).
-
-
-> For more complex scenarios, where web services are required by more than one application or third-party applications, 
-you should use an OpenID Connect implicit flow.
 
 ## Features
 - Angular v9 & ASP.NET Core 3.0
@@ -48,20 +42,15 @@ The structure of the project is based on [Angular CLI ASP.NET Core](https://gith
 
 ## Installing
 - Requirements
-	- At least [.NET Core 2.1](https://www.microsoft.com/net/download/core)
-	- [Node.js and npm](https://nodejs.org)
-    - At least [Angular CLI 7.0.0](https://github.com/angular/angular-cli)
+	-  [.NET Core 3.0](https://www.microsoft.com/net/download/core)
+	
 
-#### Command line & .NET Core CLI
-- In _ClientApp_ folder run: `npm install`
-- `dotnet build`
 
-#### Visual Studio 2017
-- In _ClientApp_ folder run: `npm install`
-- Build the solution
+
+
 
 ## Running
-The app will be served on `https://localhost:5001`
+The app will be served on `https://localhost:44356/`
 
 ### Command line & .NET Core CLI
 #### Development
@@ -71,19 +60,6 @@ The app will be served on `https://localhost:5001`
 - In _ClientApp_ folder run: `npm run build:staging`
 - `dotnet run --launch-profile Staging`
 
-### Visual Studio 2017
-#### Development
-- Select _AngularSPAWebAPI_ profile
-- Start debugging
-
-#### Staging
-- In _ClientApp_ folder run: `npm run build:staging`
-- Select _Staging_ profile
-- Start debugging
-
-## Deployment
-- In _ClientApp_ folder run: `npm run build:prod`
-- Publish
 
 ## Changing db
 To use another database, for example _SQLServer_:
