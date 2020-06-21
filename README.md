@@ -36,8 +36,8 @@ The structure of the project is based on [Angular CLI ASP.NET Core](https://gith
 - **Services**
 	- **DbInitializer.cs** _Provides method to populate the db_
 - **wwwroot** _Root for Angular application deployment_
-    - **Users.html** [Simple page whith CRUD methods](https://localhost:44356/users.html).
-    - **tokenlog.html** [Auth test page](https://localhost:44356/tokenlog.html).
+    - **Users.html** Simple page whith CRUD methods 'https://localhost:44356/users.html'.
+    - **tokenlog.html** Auth test page 'https://localhost:44356/tokenlog.html'.
 - **Config.cs** _IdentityServer4 configuration_
 - **IdentityDB.sqlite** _SQLite database_
 - **Startup.cs** _WebAPI configuration_
