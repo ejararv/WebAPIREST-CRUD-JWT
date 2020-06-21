@@ -24,7 +24,9 @@ The structure of the project is based on [Angular CLI ASP.NET Core](https://gith
 - **ClientApp** _Angular application_
 - **Controllers**
 	- **UserController.cs** _Users APIs_
-	- **PersonController.cs** _Auth _
+	- **AccountController.cs** _Auth _
+	- **UploadController.cs** _Students can upload files on the server _
+	
 - **Data** _Entity Framework_ migrations
 - **Models**
 	- **Persons.cs** _Profile data for application person_
